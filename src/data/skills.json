@@ -1,0 +1,39 @@
+
+[
+  {
+    "title": "HTML",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+  },
+  {
+    "title": "React",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+  },
+  {
+    "title": "Tailwind CSS",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+  }
+]

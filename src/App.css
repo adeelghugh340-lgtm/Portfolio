@@ -1,0 +1,246 @@
+.App {
+
+  text-align: center;
+
+/*  
+    background:
+    radial-gradient(circle at top left, #00d4ff33, transparent 30%),
+    radial-gradient(circle at bottom right, #ff00ff33, transparent 30%),
+    linear-gradient(135deg, #0f172a, #020617); */
+  background:radial-gradient( #ff00ff33);
+}
+
+
+
+/* navbar section */
+.lef{
+  color: blue;
+}
+a{
+  text-decoration: none;
+  color: blue;
+
+}
+
+.nav_bar{
+  background:radial-gradient( #ff00ff33);
+   
+
+ 
+  height: 60px;
+      display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(210, 97, 214);
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 20px;
+  box-sizing: border-box;
+   
+
+}
+ .nav_item{
+  /* background-color: yellow; */
+  padding: 14px;
+}.nav_bar .nav_item:hover{
+  border-bottom: 1px solid blue;
+  
+}
+.button{
+  background-color: yellow;
+  border: none;
+  
+}
+.nav_item{
+  font-weight: bold;
+}
+/* home section */
+:root{
+  --box-shadow: 5px 5px 10px 7px rgb(11,175,10,0.5);
+  --bg-color:rgb(40,47,97 );
+}
+
+  .left{ 
+  margin-right: 200px;
+  color: white;
+  }
+  .container .home{
+   /* background-color: aqua; */
+    margin-top: 60px;
+    
+  }
+
+.home{
+  display: flex;
+  align-items: center;
+}
+ .hero{
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  border: 2px solid yellow;
+  animation-name: ghugh;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+ }.home .left{
+
+
+width: 600px;
+background-color:var(--bg-color);
+
+text-align: center;
+padding: 30px;
+border-radius: 10px;
+border: 2px solid yellow;
+ box-shadow: var(--box-shadow);
+
+ }
+ @keyframes ghugh{
+  0%{
+    border-color: blue;
+    transform:translate(0,0px) ;
+    box-shadow: 10px 10px 100px 50px blue;
+  }
+  25%{
+     border-color:rgb(239,244,11);
+    box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+  
+  }
+  50%{
+     border-color: rgb(12,12,199);
+    transform:translate(0,0px) ;
+    box-shadow: 10px 10px 100px 50px rgb(12,12,199);
+  }
+  75%{
+     border-color: rgb(130,217,160);
+    box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+  
+  }
+  100%{
+
+     border-color: rgb(50,55,205);
+    transform:translate(0,-10px) ;
+    box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+  }
+ }
+ /* experinece section */
+ .ex-items{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bg-color);
+   /* margin: 20px;  */
+  width: 800px;
+  padding:20px ;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+ }
+
+
+ .ex{
+
+/* background-color: red; */
+  width: 800px;
+ }
+ .ghugh{
+  margin-top: 70px;
+  height: 20px;
+ text-indent: 25px;
+  display: flex;
+  justify-content: left;
+
+ }
+ /* skills section */
+ .skills{
+
+
+  width: 900px;
+ }
+ .skills .items{
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: yellow; */
+  width: 700px;
+  margin: auto;
+  /* padding: 40px; */
+ }
+  .im{
+
+
+    width: 60px;
+  }.skills .items .item{
+    width: calc(33.33%);
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+   border-radius: 10px;
+   border: 2px solid yellow;
+   box-shadow: var(--box-shadow);
+  }
+  .item{
+    color: white;
+  }
+  .ghug{
+     /* margin-top: 70px; */
+  height: 50px;
+/* background-color: black; */
+  display: flex;
+  justify-content: left;
+  text-indent: 50px;
+  }
+  /* project section */
+  .img{
+/* background-color: aqua; */
+    /* width: 250px; */
+    padding: 20px;
+  }
+  /* contact section */
+ 
+  .me{
+
+padding-right: 600px;
+/* background-color: red; */
+  }
+ 
+  .contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* background-color: red; */
+    
+  }
+  .contact-icon .item{
+    background-color: black;
+    margin: 6px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    border-radius: 100px;
+    /* background-color: black; */
+
+  }
+  .contact-icon .item .icon:hover{
+background-color: var(--bg-color);
+box-shadow: var(--box-shadow);
+
+  }
+  .image{
+    width: 100px;
+    height: 100px;
+  }
+ 
+ 
+ 

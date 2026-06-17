@@ -1,0 +1,42 @@
+[
+ {
+  "key": 1,
+  "title": "Dashboard",
+  "imageSrc": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+  "description": "A modern dashboard built with React showing analytics and charts.",
+  "demo": "https://www.example.com",
+  "source": "https://github.com/adeelghugh340-lgtm/Dashboard"
+},
+  {
+    "key": 2,
+    "title": "CRUD Application",
+    "imageSrc": "https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_640.jpg",
+    "description": "A full CRUD app using MERN stack with create, read, update, delete features.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/adeelghugh340-lgtm/Crud-app"
+  },
+  {
+    "key": 3,
+    "title": "Memory Game",
+    "imageSrc": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg",
+    "description": "A fun memory card game built using React with interactive UI.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/adeelghugh340-lgtm/Memory-Game"
+  },
+ {
+  "key": 4,
+  "title": "To Do List",
+  "imageSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+  "description": "A Modern and efficient to-do list app to manage daily tasks.",
+  "demo": "https://www.example.com",
+  "source": "https://www.github.com"
+},
+ {
+    "key": 5,
+    "title": "Music Player",
+    "imageSrc": "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
+    "description": "A stylish music player app built with React featuring play, pause, next, previous, and playlist functionality.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/adeelghugh340-lgtm/music-player"
+  }
+]
