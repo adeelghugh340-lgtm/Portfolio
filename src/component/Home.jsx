@@ -28,7 +28,7 @@ id='Home'
 data-aos="fade-up-right"
 data-aos-duration="1000"
 >
-    <h1 ref={typedRef}>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    <h1 ref={typedRef}>
             </h1>
             <a href={pdf} download="CV Resume.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
          
