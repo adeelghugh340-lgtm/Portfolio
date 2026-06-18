@@ -18,20 +18,20 @@ const Contact = () => {
             >
                
 
-<a href="https://www.linkedin.com/in/muhammad-adeel-b9a141396/" target='_blank' className="item">
+<a href="https://www.linkedin.com/in/muhammad-adeel-b9a141396/" target='_blank'   rel="noopener noreferrer" className="item">
     <CiLinkedin className='icon'/>
 
 </a>
-<a href="03348143375" target='_blank' className="item">
+<a href="03348143375" target='_blank'   rel="noopener noreferrer" className="item">
    <IoLogoWhatsapp  className='icon'/>
   
 
 </a>
-<a href="https://github.com/adeelghugh340-lgtm" target='_blank' className="item">
+<a href="https://github.com/adeelghugh340-lgtm" target='_blank' className="item"   rel="noopener noreferrer">
     <FaSquareGithub className='icon'/>
 
 </a>
-<a href="mailto:adeelghugh340@gmail.com" target='_blank' className="item">
+<a href="mailto:adeelghugh340@gmail.com" target='_blank' className="item"   rel="noopener noreferrer">
     <CgMail className='icon'/>
 </a>
             </div>
