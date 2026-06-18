@@ -2,14 +2,8 @@
 
   text-align: center;
 
-/*  
-    background:
-    radial-gradient(circle at top left, #00d4ff33, transparent 30%),
-    radial-gradient(circle at bottom right, #ff00ff33, transparent 30%),
-    linear-gradient(135deg, #0f172a, #020617); */
   background:radial-gradient( #ff00ff33);
 }
-
 
 
 /* navbar section */
@@ -243,4 +237,135 @@ box-shadow: var(--box-shadow);
   }
  
  
- 
+ /* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablet */
+@media (max-width: 992px) {
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .home .left {
+    width: 90%;
+    margin: auto;
+  }
+
+  .skills,
+  .ex {
+    width: 100%;
+  }
+
+  .skills .items {
+    width: 100%;
+  }
+
+  .ex-items {
+    width: 95%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .me {
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .nav_bar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .rigt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav_item {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .container.home {
+    margin-top: 120px;
+  }
+
+  .home .left {
+    width: 95%;
+    margin-right: 0;
+    padding: 20px;
+  }
+
+  .hero {
+    width: 180px;
+    height: 180px;
+  }
+
+  .skills .items .item {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .ex-items {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3,
+  h4,
+  h5 {
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    flex-wrap: wrap;
+  }
+
+  .me {
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+  .skills .items .item {
+    width: 95%;
+  }
+
+  .hero {
+    width: 150px;
+    height: 150px;
+  }
+
+  .home .left {
+    width: 100%;
+  }
+
+  .contact-icon .item {
+    width: 35px;
+    height: 35px;
+  }
+}
