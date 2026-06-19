@@ -9,6 +9,8 @@ import Contact from './component/Contact';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
+import Responsive from './component/Responsive';
+import About from './component/About';
 function App() {
   useEffect(()=>{
 
@@ -24,7 +26,11 @@ function App() {
         <Experience/>
         <Skills/>
         <Project/>
+         <Responsive/>
+           <About/>
         <Contact/>
+      
+       
       </div>
       
     </div>

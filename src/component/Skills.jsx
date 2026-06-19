@@ -6,7 +6,7 @@ const Skills = () => {
         <div>
             <div className="container skills" id='Skills'>
                 <div className='ghug'>
-                    <h1 style={{ color: "white" }}>SKILLS</h1>
+                    <h1 style={{ color: "block" }}>SKILLS</h1>
                 </div>
 
                 <div className="items">

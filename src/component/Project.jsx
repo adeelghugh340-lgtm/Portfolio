@@ -87,7 +87,7 @@ const Project = () => {
   return (
     <div className='container my-4' id='Project'>
 
-      <h1 className='text-center mb-4' style={{ color: "white" }}>
+      <h1 className='text-center mb-4' style={{ color: "block" }}>
         PROJECT
       </h1>
 

@@ -7,7 +7,7 @@ const Experience = () => {
       <div className='container ex' id='Experince'>
 
         <div className='ghugh'>
-          <h1 style={{ color: "white" }}>EXPERIENCE</h1>
+          <h1 style={{ color: "block" }}>EXPERIENCE</h1>
         </div>
 
         {experience.map((data) => {

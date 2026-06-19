@@ -1,8 +1,8 @@
 .App {
 
   text-align: center;
-
-  background:radial-gradient( #ff00ff33);
+background: rgb(201, 205, 241);
+  /* background:radial-gradient( #ff00ff33); */
 }
 
 
@@ -17,15 +17,15 @@ a{
 }
 
 .nav_bar{
-  background:radial-gradient( #ff00ff33);
+  /* background:radial-gradient( #ff00ff33); */
    
-
+background: rgb(147, 158, 239);
  
   height: 60px;
       display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(210, 97, 214);
+  /* background-color: rgb(210, 97, 214); */
   
   position: fixed;
   top: 0;
@@ -38,6 +38,7 @@ a{
 
 }
  .nav_item{
+  color: white;
   /* background-color: yellow; */
   padding: 14px;
 }.nav_bar .nav_item:hover{
@@ -237,9 +238,7 @@ box-shadow: var(--box-shadow);
   }
  
  
- /* ================= RESPONSIVE DESIGN ================= */
 
-/* Tablet */
 @media (max-width: 992px) {
 
   .home {

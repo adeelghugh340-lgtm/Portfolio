@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div>
         <div className="container-contact" id='Contact'>
-            <h1 className='me' style={{color:"white"}}>CONTACT ME</h1>
+            <h1 className='me' style={{color:"block"}}>CONTACT ME</h1>
             <div className="contact-icon"
             // data-aos="zoom-in"
             // data-aos-duration="1000"
@@ -22,7 +22,7 @@ const Contact = () => {
     <CiLinkedin className='icon'/>
 
 </a>
-<a href="03348143375" target='_blank'   rel="noopener noreferrer" className="item">
+<a href="tel:+923348143375" target='_blank'   rel="noopener noreferrer" className="item">
    <IoLogoWhatsapp  className='icon'/>
   
 
