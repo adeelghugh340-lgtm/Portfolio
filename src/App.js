@@ -6,6 +6,7 @@ import Experience from './component/Experience';
 import Skills from './component/Skills';
 import Project from './component/Project';
 import Contact from './component/Contact';
+import BackToTop from './component/BackToTop'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
@@ -29,7 +30,7 @@ function App() {
          <Responsive/>
            <About/>
         <Contact/>
-      
+      <BackToTop/>
        
       </div>
       

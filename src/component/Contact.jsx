@@ -22,7 +22,7 @@ const Contact = () => {
     <CiLinkedin className='icon'/>
 
 </a>
-<a href="tel:+923348143375" target='_blank'   rel="noopener noreferrer" className="item">
+<a href="https://wa.me/923348143375" target='_blank'   rel="noopener noreferrer" className="item">
    <IoLogoWhatsapp  className='icon'/>
   
 
