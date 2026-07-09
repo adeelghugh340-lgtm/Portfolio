@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navber = () => {
   const [active, setActive] = useState("Home");
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,21 +23,33 @@ const Navber = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <div className="nav_bar">
-      <div className="left">Portfolio</div>
+    <nav className="nav_bar">
 
-      <div className="right">
+      <div className="left">
+        Portfolio
+      </div>
+
+      {/* Mobile Menu Icon */}
+      <div
+        className="menu_icon"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        {menuOpen ? <FaTimes /> : <FaBars />}
+      </div>
+
+      {/* Navigation Links */}
+      <div className={`right ${menuOpen ? "active" : ""}`}>
 
         <a
           href="#Home"
           className={`nav_item ${active === "Home" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Home
         </a>
@@ -43,6 +57,7 @@ const Navber = () => {
         <a
           href="#Experince"
           className={`nav_item ${active === "Experince" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Experience
         </a>
@@ -50,6 +65,7 @@ const Navber = () => {
         <a
           href="#Skills"
           className={`nav_item ${active === "Skills" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Skills
         </a>
@@ -57,6 +73,7 @@ const Navber = () => {
         <a
           href="#Project"
           className={`nav_item ${active === "Project" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Project
         </a>
@@ -64,6 +81,7 @@ const Navber = () => {
         <a
           href="#Responsive"
           className={`nav_item ${active === "Responsive" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Responsive Design
         </a>
@@ -71,6 +89,7 @@ const Navber = () => {
         <a
           href="#About"
           className={`nav_item ${active === "About" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           About Me
         </a>
@@ -78,12 +97,14 @@ const Navber = () => {
         <a
           href="#Contact"
           className={`nav_item ${active === "Contact" ? "active" : ""}`}
+          onClick={() => setMenuOpen(false)}
         >
           Contact
         </a>
 
       </div>
-    </div>
+
+    </nav>
   );
 };
 

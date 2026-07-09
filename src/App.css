@@ -193,6 +193,7 @@ border: 2px solid yellow;
   }
  }
  /* experinece section */
+
  .ex-items{
   display: flex;
   justify-content: space-around;
@@ -263,6 +264,7 @@ border: 2px solid yellow;
   justify-content: left;
   text-indent: 50px;
   }
+  
   /* project section */
   .img{
 /* background-color: aqua; */
