@@ -1,32 +1,21 @@
-import React from 'react'
+import React from "react";
+
 
 const Responsive = () => {
   return (
-    <div className="container my-5" id="Responsive">
-      <h1 style={{ color: "block" }}>RESPONSIVE DESIGN</h1>
+    <div className="responsive-container" id="Responsive">
+      <h1 className="responsive-title">RESPONSIVE DESIGN</h1>
 
-      <div
-        style={{
-          background: "var(--bg-color)",
-          padding: "20px",
-          border: "2px solid yellow",
-          borderRadius: "10px",
-          boxShadow: "var(--box-shadow)",
-          color: "white"
-        }}
-      >
+      <div className="responsive-card">
         <h3>Features</h3>
 
-        <ul style={{ textAlign: "left" }}>
-       
-           <p>
-    This portfolio is fully responsive and works on Mobile,
-    Tablet, and Desktop devices.
-  </p>
-        </ul>
+        <p>
+          This portfolio is fully responsive and works on Mobile,
+          Tablet, and Desktop devices.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Responsive
+export default Responsive;

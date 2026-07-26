@@ -31,7 +31,7 @@ const Navber = () => {
   return (
     <nav className="nav_bar">
 
-      <div className="left">
+      <div className="lef">
         Portfolio
       </div>
 
@@ -43,7 +43,15 @@ const Navber = () => {
         {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
 
-      {/* Navigation Links */}
+      {/* Overlay */}
+      {menuOpen && (
+        <div
+          className="overlay"
+          onClick={() => setMenuOpen(false)}
+        ></div>
+      )}
+
+      {/* Navigation */}
       <div className={`right ${menuOpen ? "active" : ""}`}>
 
         <a

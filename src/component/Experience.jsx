@@ -22,7 +22,7 @@ const Experience = () => {
                 <img src={data.imageSrc} alt={data.organisation} className='image' />
               </div>
 
-              <div className="right">
+              <div className="">
                 <h2 style={{ color: 'white' }}>{data.organisation}</h2>
 
                 <h4>
