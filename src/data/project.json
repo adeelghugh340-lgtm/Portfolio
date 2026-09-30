@@ -15,22 +15,8 @@
     "demo": "https://www.example.com",
     "source": "https://github.com/adeelghugh340-lgtm/Crud-app"
   },
-  {
-    "key": 3,
-    "title": "Memory Game",
-    "imageSrc": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_640.jpg",
-    "description": "A fun memory card game built using React with interactive UI.",
-    "demo": "https://www.example.com",
-    "source": "https://github.com/adeelghugh340-lgtm/Memory-Game"
-  },
- {
-  "key": 4,
-  "title": "To Do List",
-  "imageSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
-  "description": "A Modern and efficient to-do list app to manage daily tasks.",
-  "demo": "https://www.example.com",
-  "source": "https://www.github.com"
-},
+ 
+
  {
     "key": 5,
     "title": "Music Player",
@@ -39,4 +25,21 @@
     "demo": "https://www.example.com",
     "source": "https://github.com/adeelghugh340-lgtm/music-player"
   }
+  ,
+  {
+  "key": 5,
+  "title": "Job Portal",
+  "imageSrc": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800",
+  "description": "A full-stack job portal built with the MERN Stack, featuring user authentication, job listings, profiles, and job management.",
+  "demo": "https://www.example.com"
+  
+},
+  {
+  "key": 4,
+  "title": "Login Page",
+  "imageSrc": "https://images.unsplash.com/photo-1633265486064-086b219458ec?w=800",
+  "description": "A secure MERN Stack login system built with React, Node.js, Express.js, MongoDB, and JWT authentication.",
+  "demo": "https://www.example.com",
+    "source": "https://github.com/adeelghugh340-lgtm/Mern-Projectc-1"
+}
 ]

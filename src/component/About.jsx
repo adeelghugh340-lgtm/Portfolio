@@ -16,11 +16,10 @@ const About = () => {
         }}
       >
         <p>
-          My name is Muhammad Adeel. I am a Front-End Developer
-           in React.js. I enjoy building responsive,
+          My name is Muhammad Adeel. I am a software engineer
+        . I enjoy building responsive,
           user-friendly, and modern web applications using HTML,
-          CSS, JavaScript, React.js, and MUI.I have completed my
-           Associate degree Program in computer science from UCP lahore.
+          CSS, JavaScript, React.js, and MUI.
         </p>
       </div>
     </div>

@@ -13,12 +13,16 @@
     "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
   },
   {
-    "title": "React",
+    "title": "React.Js",
     "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
   },
   {
-    "title": "Node",
+    "title": "Node.Js",
     "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+  },
+    {
+    "title": "Express.js",
+   "imageSrc": "https://cdn.simpleicons.org/express/white"
   },
   {
     "title": "Tailwind CSS",

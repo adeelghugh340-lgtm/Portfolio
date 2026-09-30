@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import pdf from '../pdf/CV Resume.pdf';
+import pdf from '../pdf/MernStack.pdf';
 import hero from '../data/hero.json'
 import { Typed } from 'react-typed';
 
@@ -7,7 +7,7 @@ const Home = () => {
   const typedRef = useRef(null)
   useEffect(()=>{
     const option = {
-      strings:["Welecom to my portfolio","My Name Muhammad Adeel","I am Front End Developer (React.Js)"],
+      strings:["Welecom to my portfolio","My Name Muhammad Adeel","I am a software engineer"],
       typeSpeed:50,
       backSpeed:50,
       loop:true
@@ -30,7 +30,7 @@ data-aos-duration="1000"
 >
     <h1 ref={typedRef}>
             </h1>
-            <a href={pdf} download="CV Resume.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
+            <a href={pdf} download="MernStack.pdf" className="btn btn-outline-warning my-3">Download Resume</a>
          
 </div>
 <div className="righ">
